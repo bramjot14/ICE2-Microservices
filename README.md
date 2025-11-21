@@ -1,13 +1,11 @@
 # microservices-parent (ICE 2)
 
-This project is a small, **beginner-friendly** version of the ICE 2 lab:
-
 - `product-service` (MongoDB + Redis cache)
 - `inventory-service` (PostgreSQL)
 - `order-service` (PostgreSQL, calls inventory through API Gateway)
 - `api-gateway` (Spring Cloud Gateway, all external traffic goes through here)
 
-## How to run (high level)
+## How to run 
 
 1. From the root (`microservices-parent`), run:
 
@@ -49,5 +47,3 @@ This project is a small, **beginner-friendly** version of the ICE 2 lab:
   - `product-service/src/test/.../ProductServiceApplicationCacheTests.java`
   - `inventory-service/src/test/.../InventoryServiceIntegrationTest.java`
   - `order-service/src/test/.../OrderServiceIntegrationTest.java`
-
-You can use this project as the base for your demo video and checklist.
